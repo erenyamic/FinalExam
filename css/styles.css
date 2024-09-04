@@ -1,0 +1,101 @@
+/*
+# This project is based on a public project but has been modified
+# according to the requirements of the IST 107 Course.
+# Instructor: Washington Valencia
+# Institution: CCTB College
+*/
+
+body {
+  background: #ffffff;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  transition: background-color 2s ease;
+}
+
+.intro {
+  margin: 30px 0px;
+  font-weight: bold;
+}
+
+h1 {
+  color: #000;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+p {
+  font-weight: 600;
+}
+
+#userInput {
+  background-color: #f0eded;
+  font-size: medium;
+  color: #000;
+  border-radius: 5px;
+  padding: 5px;
+  min-width: 65%;
+  border: none;
+}
+
+button {
+  border: none;
+  padding: 5px 15px;
+  border-radius: 5px;
+  color: #ffffff;
+  background-color: #011a1f;
+  transition: all 0.75s ease;
+  font-weight: normal;
+}
+
+button:hover {
+  background-color: #02798F;
+  color: #FFCD5D;
+}
+
+/* "Add" and "Ask User" buttons share the same style */
+#addTask, #askUser {
+  margin-top: 10px;
+}
+
+ul {
+  text-align: left;
+  margin-top: 20px;
+  display: inline-block;
+  padding-left: 0;
+}
+
+li {
+  list-style: none;
+  padding: 10px 20px;
+  color: #ffffff;
+  width: 100%;
+  text-transform: capitalize;
+  font-weight: 600;
+  border: 2px solid #0e002d;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background: #412a95;
+  transition: all 0.75s ease;
+}
+
+li:hover {
+  background: #d6d2dc;
+  color: #000;
+}
+
+/* Delete button */
+li>button {
+  font-weight: normal;
+  background: none;
+  border: none;
+  float: right;
+  color: #025f70;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.done {
+  background: #51DF70 !important;
+  color: #00891E;
+  text-decoration: line-through;
+}
